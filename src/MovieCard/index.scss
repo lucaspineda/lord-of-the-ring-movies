@@ -1,0 +1,10 @@
+@import '../colors.scss';
+
+.card {
+  position: relative;
+  background: $color-white;
+
+  &__banner {
+    background: $color-gray--dark;
+  }
+}

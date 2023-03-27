@@ -1,0 +1,14 @@
+@import '../colors.scss';
+
+.movieList {
+  padding: 18px;
+  font-size: 0.9rem;
+
+  &__header {
+    position: relative;
+  }
+
+  &__items {
+    display: grid;
+  }
+}

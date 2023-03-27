@@ -10,7 +10,7 @@ Install dependencies:
 `yarn` 
 
 Run local development server:
-`yarn start` 
+`yarn dev` 
 
 ## Designs
 Designs are available in Figma. Make sure to create a Figma account and log in if you would like to view measurements, css values etc.
