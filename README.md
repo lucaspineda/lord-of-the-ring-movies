@@ -4,7 +4,7 @@ You will also add the ability to sort and filter the items by name.
 
 ## Getting started
 Clone this repo locally with:
-`git clone https://bitbucket.org/ebex/convincely-challenge-react.git`
+`git clone git@bitbucket.org:convincely/convincely-challenge-react.git`
 
 Install dependencies:
 `yarn` 
@@ -22,7 +22,7 @@ This test uses the following endpoint, which will return a JSON list of all movi
 https://the-one-api.dev/v2/movie
 
 This endpoint is authenticated using this Bearer token:
-`5sn22IKN7mtbKyc7N-xo`
+`SlauvktIL11a0f5QoDXy`
 
 Documentation for the endpoint can be found here:
 https://the-one-api.dev/documentation
