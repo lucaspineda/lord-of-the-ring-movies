@@ -5,7 +5,7 @@ const apiToken = 'SlauvktIL11a0f5QoDXy';
 const api = axios.create({
   baseURL: 'https://the-one-api.dev',
   headers: {
-    Authorization: `Bearer ...`
+    Authorization: `Bearer ${apiToken}`
   },
 });
 
@@ -26,7 +26,8 @@ export const getMovies = async (): Promise<MovieData[]> => api.get('/v2/movie', 
     limit: 5
   }
 }).then((res) => {
-  console.log("response", res.data);
+  console.log("response", res.data.docs);
+  return res.data.docs
 });
 
 export interface QuoteData {
